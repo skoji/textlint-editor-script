@@ -1,8 +1,9 @@
 {
   "private": true,
-  "name": "@textlint/editor-script-template",
+  "name": "textlilnt-editor-script-template-skoji",
   "version": "1.0.0",
   "description": "@textlint/editor script template",
+  "homepage": "https://github.com/skoji/textlint-editor-script-skoji",
   "scripts": {
     "website": "textlint-website-generator --outputDir dist"
   },
@@ -12,6 +13,7 @@
   "dependencies": {
     "textlint": "^12.1.1",
     "textlint-filter-rule-comments": "^1.2.2",
-    "textlint-rule-no-todo": "^2.0.1"
+    "textlint-rule-no-todo": "^2.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0"
   }
 }
